@@ -1,0 +1,5 @@
+model,split,accuracy,precision,recall,f1,EER,real_as_real,real_as_fake,fake_as_real,fake_as_fake
+SVM,dev,0.921,0.872,0.986,0.926,0.046,428,72,7,491
+SVM,eval,0.868,0.947,0.847,0.894,0.136,908,92,298,1652
+RandomForest,dev,0.924,0.906,0.946,0.925,0.071,451,49,27,471
+RandomForest,eval,0.861,0.956,0.829,0.888,0.137,925,75,334,1616
